@@ -1,0 +1,130 @@
+/*Global styles
+------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Khula', sans-serif;
+  font-weight: 700;
+  color: #0E1926;
+  margin: 0;
+  line-height: 1.5;
+}
+
+h1, h2 {
+font-family: 'Indie Flower', cursive;
+line-height: 1;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+a {
+  color: #6A8D92;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #A1E887;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 25px;
+  overflow: auto;
+}
+
+.col-narrow {
+  width: 30%;
+  float: left;
+  min-height: 175px;
+}
+
+.col-wide {
+  width: 70%;
+  padding-left: 30px;
+  float: left;
+}
+
+.work-desc {
+  padding-top: 50px;
+}
+
+img:hover {
+  filter: blur(2px);
+}
+
+.col-1 {
+  width: 33%;
+  float: left;
+  margin: 0;
+}
+
+.col-2 {
+  width: 33%;
+  float: left;
+  margin: 0;
+}
+
+.col-3 {
+  width: 33%;
+  float: left;
+  margin: 0;
+}
+
+/*Sidebar
+-----------------------*/
+
+.skills {
+  border: 2px solid black;
+}
+
+/* Header and Footer
+------------------------*/
+.profile-img {
+  border-radius: 50%;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header, footer {
+  background: #0E1926;
+  color: #B1BEC6;
+}
+/* Header
+------------------------*/
+
+header h1, header h2 {
+  color: white;
+  margin-top: 30px;
+}
+
+/* Footer
+------------------------*/
+footer {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+main {
+  background-color: #B1BEC6;
+}
