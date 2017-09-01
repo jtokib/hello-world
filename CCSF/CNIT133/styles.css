@@ -1,0 +1,137 @@
+/*Global Properties */
+
+body {
+  background-color: #ccf9ef;
+  font-family: sans-serif;
+  color: #111;
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+}
+
+.container {
+width: 850px;
+margin: 0 auto;
+}
+
+/*header, footer {
+  background-color: #808B96;
+  padding: 20px 0;
+}
+
+footer {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  margin: 0 auto;
+}*/
+
+main {
+  min-height: 400px;
+}
+
+h1 {
+  text-align: center;
+  padding: 15px;
+  font-size: 2em;
+  font-family: 'Arvo', serif;
+}
+
+/*Nav Properties */
+
+aside {
+  background-color: white;
+  color: #111;
+  float: left;
+  display:inline-block;
+  border: solid 2px black;
+  height: 100px;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+.nav-menu {
+  text-align: center;
+  margin: 0 auto;
+  width: 950px;
+}
+
+nav {
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+  display: inline;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  font-size: 150%;
+}
+
+/*Main Properties*/
+
+main {
+  padding: 15px;
+  margin: 25px;
+}
+
+section {
+  padding: 15px;
+  margin: 0 auto;
+}
+
+section p {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.main-wrap {
+  width: 850px;
+  margin: 0 auto;
+}
+
+/*Table Properties*/
+
+table {
+  padding: 25px;
+  margin: 0px auto;
+}
+
+th {
+  padding: 10px 0;
+  font-size: 1.5em;
+  font-family: 'Arvo', serif;
+}
+
+tr, td {
+  padding: 15px 15px;
+}
+
+.top-row {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.odd-row {
+  background-color: lightblue;
+  color: #111;
+}
+
+.even-row {
+  background-color: teal;
+  color: #111;
+}
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+}
