@@ -1,0 +1,137 @@
+body {
+  margin-top: 20px;
+  text-align:center; /* Hack for IE/Win */
+  background-color: #450a0a;
+      }
+
+#content {
+	width: 950px;
+	margin: 0px auto;
+  padding: 5px;
+  text-align: left; /* Counteract to IE/Win Hack */
+	border:1px dashed #333;
+	background-color:#eee
+}
+
+/* NAVIGATION */
+
+ul#mainNav {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 160px;
+	padding: 0;
+	list-style: none;
+
+}
+#mainNav li {
+	float: left;
+	width: 12em;
+}
+
+#mainNav a {
+	display: block;
+	padding: 7px 5px 2px 30px;
+	text-decoration: none;
+	color: #000000;
+	border: 1px dashed #999999;
+	background: #E7E7E7 url(link.png) no-repeat left center;
+	font-size: 11px;
+}
+
+#mainNav a:hover {
+	background: #B2F511 url(go.png) no-repeat 5px 50%;
+  font-weight: bold;
+}
+
+/* special formatting for home page link */
+a#homeLink {
+	background: #E7E7E7 url(home.png) no-repeat 5px 52%;
+}
+
+/* IE Fixes */
+
+/* force hover on entire width of link */
+* html #mainNav a {
+	height: 1px;
+}
+
+h2 {
+  margin-right: 100px;
+  margin-left: 100px;
+  text-align: center;
+  color: #a0d0f7;
+  background-image: url(waves.png);
+  text-shadow: -2px -2px 5px black;
+  font-family: "AmericanTypewriter-Condensed", monospace;
+  font-size:22pt;
+  font-weight: bold;
+  font-style:normal;
+  font-variant:normal;
+}
+
+p.main  {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 15px;
+  text-align: justify;
+  text-indent: .2in;
+  color: #0b7049;
+  border-style: groove;
+  background: #101840;
+  font: 14px 'Avenir-Book', monospace;
+}
+
+
+p.lil {
+  margin-right: 300px;
+  margin-left: 300px;
+  text-align: center;
+  color: #096658;
+  background: #fe7c5a;
+  font-size: 20px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+p.newext {
+  font-size: 16px;
+  font-family: "Zapfino", monospace;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #a020f0;
+}
+
+a:hover {
+  text-decoration: underline; color:#8f0052;
+  background-color: #62fc5f;
+}
+
+#new {
+  width: 800px;
+  margin-right: 75px;
+  margin-left: 75px;
+  padding: 2em;
+  text-align: justify;color: #ff0000;
+  border: 3px solid black;
+  border-style: ridge;
+  background-color: #deb887;
+  font-family: 'AvenirNext-UltraLight', monospace;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 12px;
+}
+
+address {
+  color: #000000;
+  font-family: "ChalkboardSE-Bold", cursive;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.center {
+  text-align: center;
+}

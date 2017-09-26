@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <title>jQuery UI Tabs - Default functionality</title>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <link rel="stylesheet" href="../css/stylesv2.css">
+  <script src="./scripts/javascript.js"></script>
+</head>
+<body>
+  <nav class="navbar fixed-top navbar-dark bg-black">
+    <div class="container">
+      <h1 class="header-header">CNIT 133 - Homework 3</h1>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#">Menu</a>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <div id="navbarText" class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto mt-2 m2-lg-0">
+          <li class="nav-item"><a class="nav-link" href="../hw2/hw2_133.html">Homework 2</a></li>
+          <li class="nav-item"><a class="nav-link" href="hw3_133.html">Homework 3</a></li>
+          <li class="nav-item"><a class="nav-link" href="../hw4_133.html">Homework 4</a></li>
+          <li class="nav-item"><a class="nav-link" href="../hw5_133.html">Homework 5</a></li>
+          <li class="nav-item"><a class="nav-link" href="../hw6_133.html">Homework 6</a></li>
+          <li class="nav-item"><a class="nav-link" href="../hw7_133.html">Homework 7</a></li>
+          <li class="nav-item"><a class="nav-link" href="../hw8_133.html">Homework 8</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<div class="space"></div>
+<section>
+  <div class="container">
+    <div id="tabs">
+      <ul class="nav nav-pills">
+        <li><a href="#tabs-1">Part 1</a></li>
+        <li><a href="#tabs-2">Part 2</a></li>
+        <li><a href="#tabs-3">Part 3</a></li>
+        <li><a href="#tabs-4">Part 4</a></li>
+        <li><a href="#tabs-5">Part 5</a></li>
+        <li><a href="#tabs-6">Part 6</a></li>
+        <li><a href="#tabs-7">Part 7</a></li>
+      </ul>
+      <div id="tabs-1" class="hw3div">
+        <section>
+          <h2>Student Grades</h2>
+          <div id="dropDown">Click to Show/Hide Instructions</div>
+          <div id="panel"><p>The following webpage contains the heading, Student Grades, and uses a script that inputs a student's homework average, mid-term exam score, final exam score, and ACR (all as integers</p></div>
+          <form>
+            <div class="form-group">
+              <label for="hwAvg">Homework</label>
+              <input type="number" class="form-control" min=0 max=100 id="hwAvg" placeholder="Enter a number between 0 - 100"></input>
+              <label for="midExam">Midterm Exam</label>
+              <input type="number" class="form-control" min=0 max=100 id="midExam" placeholder="Enter a number between 0 - 100"></input>
+              <label for="finalExam">Final Exam</label><input type="number" class="form-control" min=0 max=100 id="finalExam" placeholder="Enter a number between 0 - 100"></input>
+              <label for="acr">ACR</label>
+              <input type="number" class="form-control" min=0 max=100 id="acr" placeholder="Enter a number between 0 - 100"></input>
+              <br>
+              <input type="button" class="btn-primary" onclick="studentGrades()" value="Calculate"></input>
+              <input type="button" class="btn-danger" onclick="clearAll()" value="Clear"></input>
+              <br>
+              <br>
+              <div id="finalGrade"></div>
+            </div>
+          </form>
+        </section>
+      </div>
+      <div id="tabs-2">
+        <p>Create a webpage that contains a script that uses form text boxes to input four integers and uses a form textarea to display the inputted numbers, how many integers were less than 6, how many were greater or equal to 6, and the product of the
+          4 integers.
+        </p>
+      </div>
+      <div id="tabs-3">
+        <p>Create a webpage that contains a script that outputs the following table, which includes using the Math object method: Math.sqrt()</p>
+      </div>
+      <div id="tabs-4">
+        <p>Use getElementById and innerHTML to create and write the table on the same page. </p>
+      </div>
+      <div id="tabs-5">
+        <p>Create a webpage that contains a script that will calculate how many hours it will take 2 people to finish a job working together, given that you know how many hours it will take each person to finish the job doing it alone. Assume that the people
+          will work at the same rate together as they do alone. Use form text boxes for the hours to complete a job for each person alone. Use a form text box to display how many hours it will take them working together. Accept floating-point numbers
+          for input and round the output to two decimal places. Verify that the input is numeric by using the isNAN function for testing a non-numeric value. The isNaN function stands for is NOT a Number and returns true if the value is NaN.
+        </p>
+      </div>
+      <div id="tabs-6">
+        <p>
+          Create a webpage that contains a script that inputs two integers from form input fields and then determines and outputs to a form field whether the first integer is a multiple of the second.
+        </p>
+      </div>
+      <div id="tabs-7">
+        <p>
+          Use form text boxes for an employee's name and yearly gross income. Using if...else if statements, display a relevant comment in a form text box as described here: Check for valid input for yearly gross. Note that I use jQuery to color the input text
+          boxes when the user clicks in that box.
+        </p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>Toki Burke &copy;2017 | <a href="mailto:jburke9@mail.ccsf.edu">Email Me</a> | <a href="../index.html">Homework Home Page</a></p>
+    <p class="footer-p"><a href="https://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!"/></a></p>
+    <p class="footer-p"><a href="https://validator.w3.org/nu/?doc=https://hills.ccsf.edu/~jburke9/cnit133/cnit133-hw-page.html"><img style="border:0;width:88px;height:88px" src="../images/html5.png" alt="HTML5"></a></p>
+    <p><script type="text/javascript">
+      var dateModified = document.lastModified;
+      mydate = dateModified.slice(0,10);
+      document.write("Last updated: " + mydate);
+    </script></p>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>

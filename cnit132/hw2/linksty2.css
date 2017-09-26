@@ -1,0 +1,122 @@
+body {
+  background: linear-gradient(-260deg, #060e5b, #2a1940);
+  margin: 2em;
+}
+
+/* NAVIGATION */
+
+ul#mainNav {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 160px;
+	padding: 0;
+	list-style: none;
+}
+
+#mainNav li {
+	float: left;
+	width: 12em;
+}
+
+#mainNav a {
+	display: block;
+	padding: 7px 5px 2px 30px;
+	text-decoration: none;
+	color: #000000;
+	border: 1px groove #999999;
+  border-radius: 5px;
+  margin-left: 1em;
+	background: #E7E7E7 url(link.png) no-repeat left center;
+	font-size: 11px;
+}
+
+#mainNav a:hover {
+	background: #B2F511 url(go.png) no-repeat 5px 50%;
+  font-weight: bold;
+}
+
+/* special formatting for home page link */
+
+a#homeLink {
+	background: #E7E7E7 url(home.png) no-repeat 5px 52%;
+}
+
+#content {
+  width: 950px;
+  background-color: #eee;
+  margin-top: 0;
+  margin: 0 auto;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+section {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: #a0d0f7;
+  background: url(waves.png) no-repeat center 100%;
+  margin-top: 10px;
+  padding: 5px;
+  text-shadow: -2px -2px 5px black;
+  font-family: "MarkerFelt-Wide", monospace;
+  font-size:22pt;
+  letter-spacing: 3px;
+}
+
+h2 {
+  display: inline-block;
+  font: 20px "Optima";
+  margin-bottom: -100px;
+}
+
+h3 {
+  font: 18px "Optima-bold";
+}
+
+p {
+  font: 16px "Verdana";
+  text-align: justify;
+}
+
+#plover {
+  padding: 10px 10px 50px 10px;
+  height: 250px;
+  border: 5px double #0a1829;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #d8daf0, #e0e0e0)
+}
+
+#snowydrink {
+  width: 20%;
+  float: left;
+  margin-right: 1em;
+}
+
+#snowybird {
+  width: 20%;
+  float: right;
+  margin-left: 1em;
+}
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+a {
+  text-decoration: none;
+  color: #2080f0;
+}
+
+a:hover {
+  text-decoration: underline; color:#8f0052;
+  background-color: #32a745;
+}
+
+.center {
+  text-align: center;
+}

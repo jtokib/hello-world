@@ -1,0 +1,73 @@
+/*-----Global Styles------*/
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  background-color: white;
+  color: black;
+  padding-top: 10px;
+}
+
+.row {
+  padding: 10px;
+}
+
+.breakfree {
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*-------Header--------*/
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-family: serif;
+  line-height: normal;
+}
+
+/*----Section-----*/
+
+section p {
+  text-align: center;
+}
+
+
+/* ------Links---------*/
+
+nav a {
+  padding: 5px 10px;
+  font-size: 1.5em;
+  text-decoration: none;
+}*/
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*-------Image-------*/
+
+.media img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+img {
+  border-radius: 10px;
+}
+/*------Footer--------*/
+
+footer {
+  text-align: center;
+}
